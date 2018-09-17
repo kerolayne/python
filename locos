@@ -1,0 +1,10 @@
+i=1
+
+for x in range(1,21):
+    print(x)
+
+
+x =int (input("Digite a tabuada: " ))
+while i < 10 :
+    print(x * i)
+    i=i+1
