@@ -14,9 +14,12 @@ def criaMatriz(n_lin, n_col, n):
 #def leMatriz(pos_l, ):
 
 def main():
-    n_linhas = input("digite o numero de linhas: ")
-    n_colunas = input("digite o numero de colunas: ")
+    n_vertices = input("digite o numero de linhas: ")
+   
     n = input("preencher a matriz com qual número?  ")
 
-    matriz = criaMatriz(int(n_linhas), int(n_colunas), int(n))
+    matriz = criaMatriz(int(n_vertices), int(n_vertices), int(n))
     print(matriz)
+    
+if __name__ == "__main__":
+    main()
